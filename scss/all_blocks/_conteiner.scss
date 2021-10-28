@@ -1,0 +1,80 @@
+body{
+    font-family: 'Livvic';
+}
+
+.container {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 20px;
+    background-color: #004047;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-right: 140px;
+    margin-bottom: 64px;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.cat{
+    margin-bottom: 50px;
+    width: 350px;
+    height: 253px;
+}
+
+.box-img{
+    width: 96px;
+    height: 96px;
+}
+
+.big-box{
+    padding-top: 35px;
+    background-color: #012F34;
+    align-items: center;
+    text-align: center;
+}
+
+h5{
+    color: #79C8C7;
+}
+
+p{
+    top: calc(50% - 25px/2 + 14px);
+    width: 254px;
+    color: white;
+}
+
+.twitter{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 13px;
+}
+
+.twitter-img{
+    margin-right: 16px;
+}
+
+.box-link{
+    margin-right: 8px;
+}
+
+.x-link{
+    margin-left: 10px;
+}
+
+.box-link:hover .hero-link circle{
+    fill: #79C8C7;
+}
+
+.box-link:hover .svg-link path{
+    fill: #F67E7E;
+}
+
